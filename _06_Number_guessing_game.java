@@ -13,14 +13,16 @@ public class _06_Number_guessing_game {
 
         System.out.println("NUMBER GUESSING GAME!");
         System.out.println("Enter a number between 0 and 11");
+        System.out.println("");
         do {
-            System.out.println("Enter you guess: ");
+            System.out.println("Enter your guess: ");
             guess = scanner.nextInt();
+            System.out.println("-----------------------");
 
             if (guess > randomNum) {
                 System.out.println("Try a lower number");
             } else if (guess < randomNum) {
-                System.out.println("Enter a higher number");
+                System.out.println("Try a higher number");
             }
             attempts++;
 

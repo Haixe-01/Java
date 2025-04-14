@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Shopping_cart {
+public class _02_Shopping_cart {
     public static void main(String[] args){
 
         Scanner scanner = new Scanner(System.in);

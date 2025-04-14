@@ -1,6 +1,7 @@
 import java.util.Scanner;
+
 public class Mad_lib_game {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         String adjective1;

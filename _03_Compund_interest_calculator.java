@@ -1,9 +1,10 @@
 import java.util.Scanner;
 
 public class _03_Compund_interest_calculator {
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
-        //The formula of compound interest is: amount = Principal * Math.pow(1+(Interest/n),n*time)
+        // The formula of compound interest is: amount = Principal *
+        // Math.pow(1+(Interest/n),n*time)
 
         Scanner scanner = new Scanner(System.in);
 
@@ -17,7 +18,7 @@ public class _03_Compund_interest_calculator {
         Principal = scanner.nextInt();
 
         System.out.println("Enter the Interest in %: ");
-        Interest = scanner.nextDouble()/100; //convert to decimal
+        Interest = scanner.nextDouble() / 100; // convert to decimal
 
         System.out.println("Enter the number of times the interest is compounded per year: ");
         n = scanner.nextInt();
@@ -25,9 +26,9 @@ public class _03_Compund_interest_calculator {
         System.out.println("Enter the total time in years: ");
         time = scanner.nextInt();
 
-        amount = Principal * Math.pow(1+(Interest/n),n*time);
+        amount = Principal * Math.pow(1 + (Interest / n), n * time);
 
-        System.out.printf("The total amount will be: %.2f",amount);
+        System.out.printf("The total amount will be: %.2f", amount);
 
         scanner.close();
     }

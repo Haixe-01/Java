@@ -1,10 +1,10 @@
 import java.util.Scanner;
 
 public class _02_Shopping_cart {
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-        
+
         String item;
         Double price;
         int quantity;
@@ -20,7 +20,7 @@ public class _02_Shopping_cart {
         System.out.println("How many do u wanna buy?: ");
         quantity = scanner.nextInt();
 
-        total = price*quantity;
+        total = price * quantity;
 
         System.out.println("You have bought " + quantity + " " + item);
         System.out.println("The total will be " + currency + total);

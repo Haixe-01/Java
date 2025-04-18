@@ -57,7 +57,7 @@ public class _10_rock_paper_scissor {
                 break;
             }
 
-        } while (retry = true);
+        } while (retry == true);
 
         scanner.close();
     }
